@@ -1,0 +1,32 @@
+{
+  "name": "magnet-link-regex",
+  "version": "1.0.0",
+  "description": "Regex for magnet link",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/magnet-link-regex",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint": "standard --fix",
+    "coverage": "jest --coverage"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "standard": "^11.0.1"
+  },
+  "keywords": [
+    "regex",
+    "pattern",
+    "magnet-link",
+    "magnet-url"
+  ],
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
